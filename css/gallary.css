@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.gallary{
+	width: 850px;
+	margin: 0px auto;
+}
+
+.gallary img{
+	width: 250px;
+	height: 200px;
+	margin-left: 20px;
+	display: block;
+	float: left;
+}

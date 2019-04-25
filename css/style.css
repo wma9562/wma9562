@@ -12,7 +12,7 @@ body{
 aside{
 	width: 20%;
 	height: 100vh;
-	background: #0CA4A5;
+	background: #62D796;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -24,16 +24,145 @@ section{
 	background: #D6DBD2;
 }
 
+.content{
+	padding: 120px 50px 0px 50px;
+}
+
+/*-------------Section 1 Start---------------*/
+
 #section1{
 	background: #D6DBD2;
 }
 
+#section1 h1{
+	font-size: 80px;
+	font-family: "rockwell" !important;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+#section1 h1 span{
+	color: #62D796;
+	font-family: "rockwell";
+}
+
+.s-links i{
+	font-size: 36px;
+	margin: 50px 5px;
+	color: #626262;
+}
+
+.s-links i:hover{
+	color: #62D796;
+}
+
+/*-------------Section 1 End---------------*/
+
+/*-------------Section 2 Start---------------*/
+
+
 #section2{
 	background: #F2F3AE;
+	padding: 20px 0px 0px 0px;
 }
+
+.content2 h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: "rockwell";
+	letter-spacing: 3px;
+	/*border-bottom: 10px solid #62D796;*/
+	font-weight: bold;
+}
+
+.content2 i{
+	font-size: 24px;
+	color: #44b1d2;
+}
+
+.exp{
+	width: 30%;
+	height: 180px;
+	background: #ffffff;
+	float: left;
+	margin: 10px 0px 20px 100px;
+	padding: 20px;
+}
+
+.exp span{
+	font-size: 22px;
+	font-family: "rockwell";
+	margin-left: 20px;
+}
+
+.exp p{
+	margin-top: 20px;
+}
+
+.one{
+	margin-top: 30px;
+	box-shadow: 0px 0px 5px 2px #44b1d2;
+}
+
+.two{
+	margin-top: 30px;
+	box-shadow: 0px 0px 5px 2px #C16200;
+}
+
+.three{
+	clear: left;
+	box-shadow: 0px 0px 5px 2px #875053;
+}
+
+.four{
+	box-shadow: 0px 0px 5px 2px #D2BF55;
+}
+
+/*-------------Section 2 End---------------*/
+
+
+/*-------------Section 3 Start---------------*/
+
 
 #section3{
 	background: #DAFFEF;
+	padding: 20px 40px 0px 0px;
+}
+
+.buttons{
+	width: 500px;
+	margin: 30px auto 30px auto;
+}
+
+.buttons button{
+	width: 140px;
+	height: 30px;
+	background: none;
+	border: 1.5px solid #62D796;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #62D796;
+}
+
+.buttons .all_btn{
+	width: 50px;
+}
+.buttons .web_btn{
+	width: 110px;
+}
+
+.buttons .mob_btn{
+	width: 110px;
+}
+
+#section3 iframe{
+	width: 76%;
+	height: 450px;
+	margin: 0px auto;
+	display: block;
+	border: none;
 }
 
 #section4{
@@ -51,16 +180,24 @@ section{
 .profile_image{
 	width: 130px;
 	height: 130px;
-	margin: 100px auto 30px auto;
-	border: 5px solid #ffffff50;
+	/*margin: 100px auto 30px auto;*/
+	border: 5px solid #ffffff90;
 	border-radius: 100px;
 	line-height: 120px;
 	text-align: center;
+	position: relative;
+	left: 50%;
+	top: 100px;
+	transform: translate(-50%);
 }
 
 .navbar{
 	width: 200px;
-	margin: 0px auto;
+	/*margin: 0px auto;*/
+	position: relative;
+	top: 150px;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .navbar ul{
@@ -87,5 +224,10 @@ section{
 .navbar ul li a:hover{
 	opacity: 1;
 	border: 1px dotted #ffffff;
+}
+
+@font-face{
+	font-family: "rockwell";
+	src: url(../fonts/rock.ttf);
 }
 
